@@ -46,7 +46,16 @@ models/*.h5
 models/*.pkl
 !models/.gitkeep
 report/*.pdf
+report/*.docx
+report/*.doc
 !report/.gitkeep
+
+# Test results and temporary files
+*PHASE*_SUMMARY.md
+*PHASE*_TEST_RESULTS.md
+*_execution*.py
+test_*.py
+!tests/test_*.py
 
 # Data (if large)
 # Uncomment if you don't want to commit data

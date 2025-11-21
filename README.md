@@ -5,7 +5,7 @@
 This project implements a deep learning model to predict heart disease using patient medical data. The project is divided into three parts:
 
 - **Person A (Completed):** Data preparation, EDA, and preprocessing pipeline
-- **Person B:** Model building and training
+- **Person B (Completed):** Model building, training, and optimization
 - **Person C:** Evaluation and reporting
 
 ---
@@ -86,7 +86,10 @@ heart_disease_dl_project/
 │   ├── test_phase1_setup.py
 │   ├── test_phase2_data_loading.py
 │   ├── test_phase3_eda.py
-│   └── test_phase4_preprocessing.py
+│   ├── test_phase4_preprocessing.py
+│   ├── test_phase5_data_splitting.py
+│   ├── test_phase6_training.py
+│   └── test_phase7_optimization.py
 ├── .venv/                           # Virtual environment
 ├── requirements.txt                 # Python dependencies
 └── README.md                        # This file
@@ -290,5 +293,11 @@ This project is part of a team assignment for educational purposes.
 
 ---
 
-**Project Status:** Person A work complete ✅  
-**Ready for:** Person B (Model & Training)
+**Project Status:** Person A & Person B work complete ✅  
+**Ready for:** Person C (Evaluation & Reporting)
+
+**Deliverables:**
+- ✅ Preprocessed data pipeline (Person A)
+- ✅ Trained neural network model (Person B)
+- ✅ Model saved: `models/heart_failure_model.h5`
+- ✅ Scaler saved: `models/scaler.pkl`
